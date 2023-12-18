@@ -4,4 +4,5 @@
 # Date: 2022-03-07
 # E-mail: zhuwenjing02@duxiaoman.com
 
-datasets_path = '/home/work/dev/zhuwenjing/SA/datasets/IEMOCAP'
+datasets_path = '/Users/xujiajun/GLAM/IEMOCAP'
+IEMOCAP = '/Users/xujiajun/GLAM/IEMOCAP' 

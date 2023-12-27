@@ -18,8 +18,8 @@ else
     alpha=$3
 fi
 
-model=all_AAResMultiConv3
-dir=data/mfccS1.8O1.6a$alpha/$model
+model=AAResMultiConv3
+dir=data/all_mfccS1.8O1.6a$alpha/$model
 
 while read seed; do
     if [[ $n == 0 ]]; then

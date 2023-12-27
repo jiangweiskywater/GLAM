@@ -28,7 +28,7 @@ while read seed; do
     if ! grep -q $seed $dir/${model}_mfcc_impro.metric; then
         if [[ ! -d $dir/$seed ]]; then
             echo $dir/$seed
-            python3.7 train.py --alpha $alpha -d $dir/$seed -g $gpu --seed $seed
+            python train.py --alpha $alpha -d $dir/$seed -g $gpu --seed $seed
             n=$[n-1]
         fi
     fi
